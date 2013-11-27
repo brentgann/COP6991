@@ -1,0 +1,100 @@
+1, A
+2, A
+3, A
+4, A
+5, A
+6, A, B
+7, A, B
+8, A, B, C
+9, A, B, C
+10, A, B, C 
+11, A, B, C
+12, A, B, C
+13, A, B, C
+14, A, B, C, D 
+15, A, B, C, D 
+16, A, B, C, D 
+17, A, B, C, D 
+18, A, B, C, D, E 
+19, A, B, C, D, E 
+20, A, B, C, D, E, G
+21, A, B, C, E
+22, A, B, C, E
+23, A, B, C, E
+24, A, B, C, E, G
+25, A, B, C, E, G
+26, A, B, C, F
+27, A, B, C, F
+28, A, B, C, F
+29, A, B, C, F
+30, A, B, C, F, G
+31, A, B, C, F, G
+32, A, B, C, F, G
+33, A, B, D
+34, A, B, D
+35, A, B, D
+36, A, B, D
+37, A, B, D
+38, A, B, D
+39, A, B, D, E
+40, A, B, D, E
+41, A, B, D, E
+42, A, B, D, E
+43, A, B, D, E, G
+44, A, B, D, E, G
+45, A, C
+46, A, C
+47, A, C
+48, A, C
+49, A, C, D
+50, A, C, D
+51, A, C, D
+52, A, C, D, E
+53, A, C, D, E
+54, A, C, D, E
+55, A, C, D, E, G
+56, A, C, D, E, G
+57, A, C, E
+58, A, C, E
+59, A, C, E
+60, A, C, E
+61, A, C, E
+62, A, C, E, G
+63, A, C, E, G
+64, A, C, E, G
+65, A, C, F
+66, A, C, F
+67, A, C, F
+68, A, C, F, G
+69, A, C, F, G
+70, A, E
+71, A, E
+72, A, E, G
+73, A, E, G
+74, A, E, G
+75, A, E, G
+76, C
+77, C
+78, C
+79, C, E
+80, C, E, G
+81, C, E, G
+82, C, F
+83, C, F
+84, C, F
+85, C, F, G
+86, D
+87, D
+88, D
+89, D
+90, D
+91, D
+92, D
+93, D, E
+94, D, E
+95, D, E
+96, D, E
+97, D, E
+98, D, E
+99, D, E, G
+100, D, E, G

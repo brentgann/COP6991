@@ -94,16 +94,16 @@ public class WebDataMiningProject {
         int menuChoice;
 
         System.out.println("\n\n           Welcome to SLCC" +
-                "\n Support, Lift and Confidence Calculator" +
-                "\n========================================="+
-                "\n      Please select a menu item:" +
-                "\n-----------------------------------------");
+                           "\n Support, Lift and Confidence Calculator" +
+                           "\n========================================="+
+                           "\n      Please select a menu item:" +
+                           "\n-----------------------------------------");
         System.out.println("\n1 - Calculate Support");
         System.out.println("\n2 - Calculate Confidence");
         System.out.println("\n3 - Calculate Lift");
         System.out.println("\n4 - Print Out Unique Items Set");
         System.out.println("\n5 - Exit" +
-                "\n-----------------------------------------");
+                           "\n-----------------------------------------");
         input = console.readLine("Enter menu Choice: ");
         menuChoice = Integer.parseInt(input);
 
@@ -113,37 +113,37 @@ public class WebDataMiningProject {
         switch(menuChoice) {
             case 1:
                 Set<String> set = buildSet("\nTo calculate support enter an item set."
-                        + "\n\n=========================================\n");
+                                       + "\n\n=========================================\n");
                 Double support =  Calculate.support(set, transactions);
                 System.out.println("\n\n=========================================" +
-                        "\n+++++++++++++++++++++++++++++++++++++++++"   +
-                        "\nThe support for the set entered is: " + support +
-                        "\n+++++++++++++++++++++++++++++++++++++++++"  +
-                        "\n=========================================\n");
+                                   "\n+++++++++++++++++++++++++++++++++++++++++"   +
+                                   "\nThe support for the set entered is: " + support +
+                                   "\n+++++++++++++++++++++++++++++++++++++++++"  +
+                                   "\n=========================================\n");
                 break;
             case 2:
                 set1 = buildSet("\nTo calculate confidence for rule X->Y enter item set X."
-                        + "\n=======================================================\n");
+                              + "\n=======================================================\n");
                 set2 = buildSet("\nTo calculate confidence for rule X->Y enter item set Y."
                         +       "\n=======================================================\n");
                 Double confidence = Calculate.confidence(set1, set2, transactions);
                 System.out.println("\n\n==================================================" +
-                        "\n++++++++++++++++++++++++++++++++++++++++++++++++++"   +
-                        "\nThe confidence for the two sets entered is: " + confidence +
-                        "\n++++++++++++++++++++++++++++++++++++++++++++++++++"  +
-                        "\n==================================================\n");
+                                   "\n++++++++++++++++++++++++++++++++++++++++++++++++++"   +
+                                   "\nThe confidence for the two sets entered is: " + confidence +
+                                   "\n++++++++++++++++++++++++++++++++++++++++++++++++++"  +
+                                   "\n==================================================\n");
                 break;
             case 3:
                 set1 = buildSet("\nTo calculate lift for rule X->Y enter item set X."
-                        + "\n=================================================\n");
+                              + "\n=================================================\n");
                 set2 = buildSet("\nTo calculate lift enter for rule X->Y item set Y."
-                        + "\n=================================================\n");
+                              + "\n=================================================\n");
                 Double lift = Calculate.lift(set1, set2, transactions);
                 System.out.println("\n\n=============================================" +
-                        "\n+++++++++++++++++++++++++++++++++++++++++++++"   +
-                        "\nThe lift for the two sets entered is: " + lift +
-                        "\n+++++++++++++++++++++++++++++++++++++++++++++"  +
-                        "\n=============================================\n");
+                                   "\n+++++++++++++++++++++++++++++++++++++++++++++"   +
+                                   "\nThe lift for the two sets entered is: " + lift +
+                                   "\n+++++++++++++++++++++++++++++++++++++++++++++"  +
+                                   "\n=============================================\n");
                 break;
             case 4:
                 printSet();
@@ -185,8 +185,8 @@ public class WebDataMiningProject {
      */
     private void printSet() {
         System.out.println("\n\n=================================" +
-                "\nUnique Items In Data Transactions" +
-                "\n=================================");
+                             "\nUnique Items In Data Transactions" +
+                             "\n=================================");
         for(String s : items) {
             System.out.println(s);
         }
