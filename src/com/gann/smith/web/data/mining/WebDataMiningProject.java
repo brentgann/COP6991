@@ -28,7 +28,7 @@ public class WebDataMiningProject {
         while (flagReadFile) {
             Console console = System.console();
             String input;
-            input = console.readline("\n" + "Please enter the main Transaction filename.");
+            input = console.readLine("\nPlease enter the main Transaction filename.");
             if (!dataMiningProject.readFile(input)) {
                 System.err.println("\nError: The File " + input + " cannot be found.\n");
                 flagReadFile = true;
