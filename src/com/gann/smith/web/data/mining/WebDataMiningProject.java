@@ -45,7 +45,12 @@ public class WebDataMiningProject {
         System.exit(0);
     }
 
-
+    /**
+     *  Reads file in and builds the apropriate data structures for the program
+     *
+     * @param filename String name of the file that contains transaction data
+     * @return Boolean flag: true if file read, false if file failed to read
+     */
     private boolean readFile(String filename) {
         try {
 
