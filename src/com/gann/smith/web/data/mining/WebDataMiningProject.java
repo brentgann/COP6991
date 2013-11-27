@@ -77,12 +77,15 @@ public class WebDataMiningProject {
         String input;
         int menuChoice;
 
-        System.out.println("\n      Welcome to SLCC\n Support Lift and Confidence" +
-                           "\n===========================\nPlease select a menu item:");
+        System.out.println("\n      Welcome to SLCC\n Support, Lift and Confidence Calculator" +
+                           "\n========================================="+
+                           "\n      Please select a menu item:" +
+                           "\n-----------------------------------------");
         System.out.println("\n1 - Calculate Support");
         System.out.println("\n2 - Calculate Confidence");
         System.out.println("\n3 - Calculate lift");
-        System.out.println("\n4 - Exit");
+        System.out.println("\n4 - Exit" +
+                           "\n-----------------------------------------");
         input = console.readLine("Enter menu Choice:");
         menuChoice = Integer.parseInt(input);
 
