@@ -5,10 +5,11 @@ import java.io.Console;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.*;
+import java.util.HashMap;
 
 /**
  * Created with IntelliJ IDEA.
- * User: bgann
+ * User: bgann, csmith
  * Date: 11/25/13
  * Time: 9:13 PM
  */
@@ -63,12 +64,12 @@ public class WebDataMiningProject {
                 }
             }
         } catch (FileNotFoundException e) {
-            return true;
+            return false;
         } catch (Exception e) {
             System.err.println("\nError: An unhandled exception has occurred.\n Exiting program.\n");
             System.exit(1);
         }
-        return false;
+        return true;
     }
 
     private boolean menu() {
