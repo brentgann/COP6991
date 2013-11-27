@@ -8,7 +8,7 @@ import java.util.*;
  * Date: 11/26/13
  * Time: 10:32 PM
  */
-public abstract class Calculate {
+public class Calculate {
 
 
     /**
