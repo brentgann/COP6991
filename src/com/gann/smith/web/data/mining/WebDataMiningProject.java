@@ -56,10 +56,10 @@ public class WebDataMiningProject {
                 String transactionName;
                 String lineSplit[] = line.split(",");
 
-                transactionName = lineSplit[0];
+                transactionName = lineSplit[0].trim();
                 transactions.put(transactionName, new ArrayList<String>());
                 for (int i = 1; i < lineSplit.length; ++i) {
-                    transactions.get(transactionName).add(lineSplit[i]); // the next string read in
+                    transactions.get(transactionName).add(lineSplit[i].trim()); // the next string read in
                     items.add(lineSplit[i]);
                 }
             }
@@ -77,7 +77,8 @@ public class WebDataMiningProject {
         String input;
         int menuChoice;
 
-        System.out.println("\nWelcome to ________\n===================\nPlease select a menu item:");
+        System.out.println("\n      Welcome to SLCC\n Support Lift and Confidence" +
+                           "\n===========================\nPlease select a menu item:");
         System.out.println("\n1 - Calculate Support");
         System.out.println("\n2 - Calculate Confidence");
         System.out.println("\n3 - Calculate lift");
@@ -112,7 +113,7 @@ public class WebDataMiningProject {
                 System.out.println("\nThe lift for the two sets entered is: " + lift + "\n");
                 break;
             case 4:
-                System.out.println("Thank you for using ________");
+                System.out.println("Thank you for using SLCC");
                 return false;
             default:
                 System.out.println("\n" + input + " is not a menu option.  Please try again.\n");
