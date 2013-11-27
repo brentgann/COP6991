@@ -5,7 +5,6 @@ import java.io.Console;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.*;
-import com.gann.smith.web.data.mining.Calculate;
 
 /**
  * Created with IntelliJ IDEA.
